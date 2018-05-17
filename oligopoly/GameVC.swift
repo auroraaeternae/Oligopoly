@@ -13,6 +13,7 @@ class GameVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var playersList = [Player]()
     var turnsCount = 1
+    let months = ["January", "February","March","April","May","June","July","August","September","October","November","December"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -150,7 +151,7 @@ class GameVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         topContainerView.addSubview(turnLabel)
         topContainerView.addSubview(taxButton)
         
-        turnLabel.text = "Turn : \(String(turnsCount))"
+        turnLabel.text = months[turnsCount - 1]
         
         topContainerView.addConstraintsWithFormat(format: "H:|-16-[v0]", views: restartButton)
         topContainerView.addConstraintsWithFormat(format: "V:[v0]-12-|", views: restartButton)
@@ -164,22 +165,31 @@ class GameVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @objc
     func handleTax() {
         
-        let alert = UIAlertController(title: "Taxation Service", message: "How much tax should be enforced?", preferredStyle: .alert)
-        
-        alert.addTextField { (textField) in
-            textField.placeholder = "Set tax value"
-        }
-        
-        alert.addAction(UIAlertAction(title: "Impose Tax", style: .default, handler: { (action) in
-            let textField = alert.textFields![0] as UITextField
-            if textField.text != "" {
-                self.imposeTax(tax: Int16(textField.text!)!)
-            } else {
+        if turnsCount % 3 == 0 {
+            let alert = UIAlertController(title: "Taxation Service", message: "How much tax should be enforced?", preferredStyle: .alert)
+            
+            alert.addTextField { (textField) in
+                textField.placeholder = "Set tax value"
+                textField.keyboardType = .numberPad
             }
-            alert.dismiss(animated: true, completion: nil)
-        }))
-        
-        present(alert, animated: true, completion: nil)
+            
+            alert.addAction(UIAlertAction(title: "Impose Tax", style: .default, handler: { (action) in
+                let textField = alert.textFields![0] as UITextField
+                if textField.text != "" {
+                    self.imposeTax(tax: Int16(textField.text!)!)
+                } else {
+                }
+                alert.dismiss(animated: true, completion: nil)
+            }))
+            
+            present(alert, animated: true, completion: nil)
+        } else {
+            let alert = UIAlertController(title: "Wrong Month!", message: "You can only impose taxes on March, June, September, and December", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                alert.dismiss(animated: true, completion: nil)
+            }))
+        }
+       
     }
     
     func imposeTax(tax: Int16) {

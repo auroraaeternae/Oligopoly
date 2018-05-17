@@ -32,7 +32,6 @@ class CreateGroupsVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         clearData()
         
-        
     }
     
     
@@ -183,6 +182,7 @@ class CreateGroupsVC: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = playersInputTable.dequeueReusableCell(withIdentifier: "cell") as! InputCell
+        cell.inputPlayersField.tag = indexPath.row
         return cell
     }
     
