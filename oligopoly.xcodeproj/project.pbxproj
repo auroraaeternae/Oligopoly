@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3906565820AC7E8B00D0BF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3906565720AC7E8B00D0BF96 /* Assets.xcassets */; };
+		398C6F4420ABDB73007891AD /* EndVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C6F4320ABDB73007891AD /* EndVC.swift */; };
+		398C6F4720AC0E26007891AD /* Player+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C6F4520AC0E26007891AD /* Player+CoreDataClass.swift */; };
+		398C6F4820AC0E26007891AD /* Player+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C6F4620AC0E26007891AD /* Player+CoreDataProperties.swift */; };
+		39B6D88020AD3E3F0033311E /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6D87F20AD3E3F0033311E /* HelpVC.swift */; };
+		E446987020AB27910075E7DE /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446986F20AB27910075E7DE /* GameVC.swift */; };
+		E446987420AB44630075E7DE /* InputTurnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446987320AB44630075E7DE /* InputTurnsVC.swift */; };
 		E4A9C5C120AB0D6F00208A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9C5C020AB0D6F00208A81 /* AppDelegate.swift */; };
-		E4A9C5C320AB0D6F00208A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9C5C220AB0D6F00208A81 /* ViewController.swift */; };
-		E4A9C5C620AB0D6F00208A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A9C5C420AB0D6F00208A81 /* Main.storyboard */; };
+		E4A9C5C320AB0D6F00208A81 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9C5C220AB0D6F00208A81 /* CreateGroupsVC.swift */; };
 		E4A9C5C920AB0D6F00208A81 /* oligopoly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4A9C5C720AB0D6F00208A81 /* oligopoly.xcdatamodeld */; };
-		E4A9C5CB20AB0D6F00208A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A9C5CA20AB0D6F00208A81 /* Assets.xcassets */; };
 		E4A9C5CE20AB0D6F00208A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A9C5CC20AB0D6F00208A81 /* LaunchScreen.storyboard */; };
+		E4A9C5D620AB108C00208A81 /* helperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9C5D520AB108C00208A81 /* helperMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3906565720AC7E8B00D0BF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		398C6F4320ABDB73007891AD /* EndVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndVC.swift; sourceTree = "<group>"; };
+		398C6F4520AC0E26007891AD /* Player+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataClass.swift"; sourceTree = "<group>"; };
+		398C6F4620AC0E26007891AD /* Player+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		39B6D87F20AD3E3F0033311E /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		E446986F20AB27910075E7DE /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		E446987320AB44630075E7DE /* InputTurnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTurnsVC.swift; sourceTree = "<group>"; };
 		E4A9C5BD20AB0D6F00208A81 /* oligopoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oligopoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A9C5C020AB0D6F00208A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4A9C5C220AB0D6F00208A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4A9C5C520AB0D6F00208A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4A9C5C220AB0D6F00208A81 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		E4A9C5C820AB0D6F00208A81 /* oligopoly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oligopoly.xcdatamodel; sourceTree = "<group>"; };
-		E4A9C5CA20AB0D6F00208A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A9C5CD20AB0D6F00208A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4A9C5CF20AB0D6F00208A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A9C5D520AB108C00208A81 /* helperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				E4A9C5C020AB0D6F00208A81 /* AppDelegate.swift */,
-				E4A9C5C220AB0D6F00208A81 /* ViewController.swift */,
-				E4A9C5C420AB0D6F00208A81 /* Main.storyboard */,
-				E4A9C5CA20AB0D6F00208A81 /* Assets.xcassets */,
+				E4A9C5C220AB0D6F00208A81 /* CreateGroupsVC.swift */,
+				39B6D87F20AD3E3F0033311E /* HelpVC.swift */,
+				E446986F20AB27910075E7DE /* GameVC.swift */,
+				E446987320AB44630075E7DE /* InputTurnsVC.swift */,
+				398C6F4320ABDB73007891AD /* EndVC.swift */,
+				E4A9C5D520AB108C00208A81 /* helperMethods.swift */,
 				E4A9C5CC20AB0D6F00208A81 /* LaunchScreen.storyboard */,
 				E4A9C5CF20AB0D6F00208A81 /* Info.plist */,
 				E4A9C5C720AB0D6F00208A81 /* oligopoly.xcdatamodeld */,
+				3906565720AC7E8B00D0BF96 /* Assets.xcassets */,
+				398C6F4620AC0E26007891AD /* Player+CoreDataProperties.swift */,
+				398C6F4520AC0E26007891AD /* Player+CoreDataClass.swift */,
 			);
 			path = oligopoly;
 			sourceTree = "<group>";
@@ -126,9 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3906565820AC7E8B00D0BF96 /* Assets.xcassets in Resources */,
 				E4A9C5CE20AB0D6F00208A81 /* LaunchScreen.storyboard in Resources */,
-				E4A9C5CB20AB0D6F00208A81 /* Assets.xcassets in Resources */,
-				E4A9C5C620AB0D6F00208A81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A9C5C920AB0D6F00208A81 /* oligopoly.xcdatamodeld in Sources */,
-				E4A9C5C320AB0D6F00208A81 /* ViewController.swift in Sources */,
+				39B6D88020AD3E3F0033311E /* HelpVC.swift in Sources */,
+				E446987420AB44630075E7DE /* InputTurnsVC.swift in Sources */,
+				398C6F4420ABDB73007891AD /* EndVC.swift in Sources */,
+				E4A9C5C320AB0D6F00208A81 /* CreateGroupsVC.swift in Sources */,
+				398C6F4820AC0E26007891AD /* Player+CoreDataProperties.swift in Sources */,
+				E4A9C5D620AB108C00208A81 /* helperMethods.swift in Sources */,
+				398C6F4720AC0E26007891AD /* Player+CoreDataClass.swift in Sources */,
+				E446987020AB27910075E7DE /* GameVC.swift in Sources */,
 				E4A9C5C120AB0D6F00208A81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4A9C5C420AB0D6F00208A81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4A9C5C520AB0D6F00208A81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4A9C5CC20AB0D6F00208A81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PK4LUYZ846;
 				INFOPLIST_FILE = oligopoly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lepremierchat.oligopoly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PK4LUYZ846;
 				INFOPLIST_FILE = oligopoly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lepremierchat.oligopoly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
