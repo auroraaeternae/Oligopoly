@@ -85,7 +85,7 @@ class CreateGroupsVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.view.addSubview(placeHolderLabel)
         self.view.addSubview(addPlayersButton)
         
-        self.view.addConstraintsWithFormat(format: "V:|-48-[v1]-8-[v0]-8-[v2(48)]-280-|", views: playersInputTable, placeHolderLabel, startButton)
+        self.view.addConstraintsWithFormat(format: "V:|-48-[v1]-8-[v0]-8-[v2(48)]-350-|", views: playersInputTable, placeHolderLabel, startButton)
         self.view.addConstraintsWithFormat(format: "H:|-32-[v0]-32-|", views: playersInputTable)
         self.view.addConstraintsWithFormat(format: "H:|-16-[v0]", views: placeHolderLabel)
         self.view.addConstraintsWithFormat(format: "H:[v0]-16-|", views: addPlayersButton)

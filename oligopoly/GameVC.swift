@@ -13,7 +13,7 @@ class GameVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var playersList = [Player]()
     var turnsCount = 1
-    let months = ["January", "February","March","April","May","June","July","August","September","October","November","December"]
+    let months = ["January", "February","March","April","May","June","July","August","September","October","November","December","Finished"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -183,11 +183,13 @@ class GameVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             }))
             
             present(alert, animated: true, completion: nil)
+            
         } else {
             let alert = UIAlertController(title: "Wrong Month!", message: "You can only impose taxes on March, June, September, and December", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
                 alert.dismiss(animated: true, completion: nil)
             }))
+            present(alert, animated: true, completion: nil)
         }
        
     }
