@@ -1,4 +1,8 @@
-# Oligopoly
+# Oligopoly 
+
+-points of improvement and todos
+--did not implement help screen
+--more space to work on expected revenues
 
 project for 새로매, Saeromae, immitating the behaviors of firms in an oligopoly market.
 
