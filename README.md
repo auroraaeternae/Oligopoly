@@ -1,8 +1,11 @@
-## Oligopoly 
+# Oligopoly 
 
-#points of improvement and todos
--did not implement help screen
--more space to work on expected revenues
+## points of improvement and todos
+* did not implement help screen
+* more space to work on expected revenues
+
+
+## description
 
 project for 새로매, Saeromae, immitating the behaviors of firms in an oligopoly market.
 
@@ -19,6 +22,8 @@ however the percentage of earning that revenuei is low for non-popular risky gam
 on the contrary, safe game participants would have a higher percentage and a moderate revenue when the number of participants is a majority,
 
 which diminishes as participants leave the investment
+
+## discussion
 
 however, as all strategic games are, this needs improvement
 
